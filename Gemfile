@@ -6,6 +6,8 @@ gem "middleman", "~>3.3.5"
 
 gem 'middleman-deploy', '~> 0.3.0'
 
+gem "byebug"
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
