@@ -1,18 +1,33 @@
 ---
-title: HTML5 Boilerplate Middleman
-elements:
-  - element 1
-  - element 2
+title: Frank's Homepage
+projects:
+  - align: right
+    thumb_url: resume-thumbnail.png
+    description: >
+      An browser version of my resume that I created using basic HTML,
+      CSS, and responsive design.
+    tech: HTML5 - CSS3 - Responsive Design
+  - align: left
+    thumb_url: citeit-thumbnail.png
+    description: >
+      Cite It is a web application that uses the Open Library API to
+      generate a customizeable citation in APA, MLA, or Chicago, for
+      any book you type in.
+    tech: HTML5 - CSS3 - JavaScript - jQuery - Responsive Design
 ---
-
 <!-- Add your site or application content here -->
 <p>Hello world! This is HTML5 Boilerplate.</p>
-<h3>Elements:</h3>
-<ul>
-  <% current_page.data.elements.each do |e| %>
-    <li>
-      <%= e %>
-    </li>
+<p>LOUD TEXT</p>
+<% content_tag :div, :id => 'triangle-right' do %>
+  <p>Frank</p>
+<% end %>
+<% content_tag :div, :class => 'portfolio clearfix' do %>
+  <% content_tag :div, :class => 'h2-container' do %>
+    <% content_tag :h2 do %>
+      My Portfolio
+    <% end %>
   <% end %>
-</ul>
-
+  <% current_page.data["projects"].each do |project| %>
+    <%= partial(:project, :locals => project) %>
+  <% end %>
+<% end %>

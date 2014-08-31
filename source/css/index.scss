@@ -1,0 +1,49 @@
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 200px solid red;
+    border-bottom: 100px solid transparent;
+    position: relative;
+    opacity: 0.8;
+    p {
+	font-size: 3rem;
+	position: absolute;
+	top: -60px;
+	left: -190px;
+    }
+}
+
+.portfolio {
+    width: 100%;
+    padding: 0 10%;
+    background: rgba(0,0,0,0.5);
+    .left {
+	float: left;
+    }
+
+    .right {
+	float: right;
+    }
+
+    .project {
+	padding: 1.5em 0;
+	width: 45%;
+    }
+
+    a {
+	color: #f55;
+    }
+    
+    p {
+	text-align: center;
+    }
+    
+    .tech {
+	color: #0f0;
+	text-align: center;
+    }
+    .thumbnail {
+	width: 100%;
+    }
+}
