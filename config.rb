@@ -33,7 +33,7 @@
 ###
 
 # Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
+activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -65,7 +65,10 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
+
+  # pretty URL regardless of server, see nginx try_files setting.
+  activate :directory_indexes
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
@@ -79,3 +82,9 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
+
+ configure :development do
+   # don't munge assets while developing
+   set :debug_assets, true
+ end
+
