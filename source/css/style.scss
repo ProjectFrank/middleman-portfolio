@@ -12,7 +12,6 @@ html {
 
 body {
     font-family: 'Oswald';
-    background: black;
 }
 
 #background {
@@ -44,8 +43,14 @@ nav {
     div {
 	color: #fff;
 	display: inline-block;
+	font-family: Oswald;
+	font-size: 16px;
+	font-weight: 300;
 	height: 100%;
 	padding-left: 10%;
+    }
+    a {
+	color: inherit;
     }
 }
 

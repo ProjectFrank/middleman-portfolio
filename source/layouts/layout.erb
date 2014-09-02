@@ -13,8 +13,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <%= stylesheet_link_tag 'all', current_page.data[:stylesheet] %>
-	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
-
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300|<%= current_page.data[:gfont] %>" >
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body>
@@ -31,8 +30,7 @@
 	<% end %>
 	<% content_tag :main do %>
 	<%= tag :img, :id => "background", :src => "http://i.imgur.com/8DtvYY1.jpg" %>
-	  <h1> current url is: <%= current_page.url %> </h1>
-	  
+ 
           <%= yield %>
 	<% end %>
 
