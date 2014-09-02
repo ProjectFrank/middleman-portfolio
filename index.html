@@ -7,14 +7,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!-- Use title if it's in the page YAML frontmatter -->
-        <title>HTML5 Boilerplate Middleman</title>
+        <title>Frank's Homepage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link href="css/all.css" rel="stylesheet" type="text/css" /><link href="css/.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300|Playfair+Display+SC:400|Sigmar+One" >
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body>
@@ -23,22 +22,52 @@
         <![endif]-->
 
 	<!-- menus -->
-	<h1> current url is: / </h1>
-	
-        <!-- Add your site or application content here -->
-<p>Hello world! This is HTML5 Boilerplate.</p>
-<h3>Elements:</h3>
-<ul>
-    <li>
-      element 1
-    </li>
-    <li>
-      element 2
-    </li>
-</ul>
+<nav>	  <div class="nav"><a href="/#">Home</a></div>
+	  <div class="nav"><a href="/#">About</a></div>
+	  <div class="nav"><a href="/#">Portfolio</a></div>
+	  <div class="nav"><a href="/#">Blog</a></div>	 
+</nav><main>	<img id="background" src="http://i.imgur.com/8DtvYY1.jpg" />
+ 
+          <!-- Add your site or application content here -->
+<div class="header">
+    <p>my name is</p>
+    <p class="name">f<span class="r">r</span>ank <span class="w">w</span>ang</p>
+    <p>and i'm a front-end developer</p>
+</div>
 
+<div class="portfolio clearfix">
+  <div class="h2-container">
+    <h2>My Portfolio</h2>
+  </div>
+    <div class="project right">
+  <img class="thumbnail" alt="" width="1024" height="640" src="img/resume-thumbnail.png" />
+  <p class="description">
+    An browser version of my resume that I created using basic HTML, CSS, and responsive design.
 
+  </p>
+  <p>
+    This site is <a href="/resume/">live.</a>
+  </p>    
+  <p class="tech">
+    HTML5 - CSS3 - Responsive Design
+  </p>
+</div>
+    <div class="project left">
+  <img class="thumbnail" alt="" width="1024" height="640" src="img/citeit-thumbnail.png" />
+  <p class="description">
+    Cite It is a web application that uses the Open Library API to generate a customizeable citation in APA, MLA, or Chicago, for any book you type in.
 
+  </p>
+  <p>
+    This site is <a href="http://projectfrank.github.io/citeit/">live.</a>
+  </p>    
+  <p class="tech">
+    HTML5 - CSS3 - JavaScript - jQuery - Responsive Design
+  </p>
+</div>
+</div>
+
+</main>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
