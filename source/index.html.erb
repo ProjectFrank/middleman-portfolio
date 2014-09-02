@@ -1,5 +1,6 @@
 ---
 title: Frank's Homepage
+gfont: Playfair+Display+SC:400|Sigmar+One
 projects:
   - align: right
     thumb_url: resume-thumbnail.png
@@ -18,18 +19,17 @@ projects:
     url: http://projectfrank.github.io/citeit/
 ---
 <!-- Add your site or application content here -->
-<p>Hello world! This is HTML5 Boilerplate.</p>
-<p>LOUD TEXT</p>
-<% content_tag :div, :id => 'triangle-right' do %>
-  <p>Frank</p>
-<% end %>
-<% content_tag :div, :class => 'portfolio clearfix' do %>
-  <% content_tag :div, :class => 'h2-container' do %>
-    <% content_tag :h2 do %>
-      My Portfolio
-    <% end %>
-  <% end %>
+<div class="header">
+    <p>my name is</p>
+    <p class="name">f<span class="r">r</span>ank <span class="w">w</span>ang</p>
+    <p>and i'm a front-end developer</p>
+</div>
+
+<div class="portfolio clearfix">
+  <div class="h2-container">
+    <h2>My Portfolio</h2>
+  </div>
   <% current_page.data["projects"].each do |project| %>
     <%= partial(:project, :locals => project) %>
   <% end %>
-<% end %>
+</div>

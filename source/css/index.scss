@@ -1,22 +1,41 @@
-#triangle-right {
-    width: 0;
-    height: 0;
-    border-top: 100px solid transparent;
-    border-left: 200px solid rgba(255,0,0,0.7);
-    border-bottom: 100px solid transparent;
-    position: relative;
+.header {
+    height: 750px;
+    width: 100%;
+    background: transparent;
+    background: rgba(0,0,0,0.4);
+    padding-top: 10%;
+    /* .header { */
+    /* 	padding-top: 10%; */
+    /* } */
     p {
-	font-size: 3rem;
-	position: absolute;
-	top: -60px;
-	left: -190px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: "Playfair Display SC";
+	text-align: center;
+	margin: 0
+    }
+    .name {
+	font-family: "Sigmar One";
+	font-size: 8rem;
+	line-height: 1;
+    }
+    p:last-child {
+	line-height: 2.4;
+    }
+
+    span.r {
+	letter-spacing: -0.05em;
+    }
+
+    span.w {
+	letter-spacing: -0.07em;
     }
 }
 
 .portfolio {
     width: 100%;
     padding: 0 10%;
-    background: rgba(0,0,0,0.5);
+    background: rgb(0,0,0);
     .left {
 	float: left;
     }
