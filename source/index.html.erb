@@ -19,13 +19,13 @@ projects:
     url: http://projectfrank.github.io/citeit/
 ---
 <!-- Add your site or application content here -->
-<div class="header">
+<div id="home">
     <p>my name is</p>
     <p class="name">f<span class="r">r</span>ank <span class="w">w</span>ang</p>
     <p>and i'm a front-end developer</p>
 </div>
 
-<div class="portfolio clearfix">
+<div id="portfolio" class="clearfix">
   <div class="h2-container">
     <h2>My Portfolio</h2>
   </div>
@@ -33,3 +33,7 @@ projects:
     <%= partial(:project, :locals => project) %>
   <% end %>
 </div>
+<%= javascript_include_tag 'bind-polyfill', 'smooth-scroll' %>
+<script>
+  smoothScroll.init({easing: 'easeInOutQuad', updateURL: false});
+</script>

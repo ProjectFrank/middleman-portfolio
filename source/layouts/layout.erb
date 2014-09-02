@@ -23,14 +23,13 @@
 
 	<!-- menus -->
 	<% content_tag :nav do %>
-	  <div class="nav"><%= link_to 'Home', '/#' %></div>
-	  <div class="nav"><%= link_to 'About', '/#' %></div>
-	  <div class="nav"><%= link_to 'Portfolio', '/#' %></div>
+	  <div class="nav"><%= link_to 'Home', '/#home', :"data-scroll" => "" %></div>
+	  <div class="nav"><%= link_to 'About', '/#about', :"data-scroll" => "" %></div>
+	  <div class="nav"><%= link_to 'Portfolio', '/#portfolio', :"data-scroll" => ""%></div>
 	  <div class="nav"><%= link_to 'Blog', '/#' %></div>	 
 	<% end %>
 	<% content_tag :main do %>
-	<%= tag :img, :id => "background", :src => "http://i.imgur.com/8DtvYY1.jpg" %>
- 
+	<%= tag :img, :id => "background", :src => "http://i.imgur.com/8DtvYY1.jpg" %> 
           <%= yield %>
 	<% end %>
 
@@ -38,6 +37,9 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+	<script>
+	  smoothScroll.init({easing: 'easeInOutQuad'});
+	</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
