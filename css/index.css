@@ -1,5 +1,5 @@
 /* line 1, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
-#header {
+#home {
   height: 750px;
   width: 100%;
   background: transparent;
@@ -9,25 +9,25 @@
   /* 	padding-top: 10%; */
   /* } */ }
   /* line 10, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
-  #header p {
+  #home p {
     font-size: 1.5rem;
     font-weight: 400;
     font-family: "Playfair Display SC";
     text-align: center;
     margin: 0; }
   /* line 17, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
-  #header .name {
+  #home .name {
     font-family: "Sigmar One";
     font-size: 8rem;
     line-height: 1; }
   /* line 22, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
-  #header p:last-child {
+  #home p:last-child {
     line-height: 2.4; }
   /* line 26, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
-  #header span.r {
+  #home span.r {
     letter-spacing: -0.05em; }
   /* line 30, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
-  #header span.w {
+  #home span.w {
     letter-spacing: -0.07em; }
 
 /* line 35, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
