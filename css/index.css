@@ -92,3 +92,6 @@
     margin-top: 5%;
     float: right;
     width: 60%; }
+    /* line 104, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+    #about .description p:first-child {
+      margin-top: 0; }
