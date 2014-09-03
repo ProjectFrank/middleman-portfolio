@@ -830,7 +830,7 @@ body {
 /* line 26, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
 a {
   text-decoration: none;
-  color: inherit; }
+  color: #f55; }
 
 /* line 31, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
 nav {
@@ -873,7 +873,7 @@ main {
 /* line 70, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
 .h2-container {
   border-bottom: 1px solid white; }
-/* line 1, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+/* line 3, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
 #home {
   height: 750px;
   width: 100%;
@@ -883,54 +883,75 @@ main {
   /* .header { */
   /* 	padding-top: 10%; */
   /* } */ }
-  /* line 10, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 12, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #home p {
     font-size: 1.5rem;
     font-weight: 400;
     font-family: "Playfair Display SC";
     text-align: center;
     margin: 0; }
-  /* line 17, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 19, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #home .name {
     font-family: "Sigmar One";
     font-size: 8rem;
     line-height: 1; }
-  /* line 22, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 24, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #home p:last-child {
     line-height: 2.4; }
-  /* line 26, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 28, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #home span.r {
     letter-spacing: -0.05em; }
-  /* line 30, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 32, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #home span.w {
     letter-spacing: -0.07em; }
 
-/* line 35, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+/* line 37, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+.subpage {
+  padding: 10%; }
+
+/* line 41, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
 #portfolio {
   width: 100%;
-  padding: 0 10%;
   background: black; }
-  /* line 39, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 44, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #portfolio .left {
     float: left; }
-  /* line 43, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 48, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #portfolio .right {
     float: right; }
-  /* line 47, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 52, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #portfolio .project {
     padding: 1.5em 0;
     width: 45%; }
-  /* line 52, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
-  #portfolio a {
-    color: #f55; }
-  /* line 56, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 57, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #portfolio p {
     text-align: center; }
-  /* line 60, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 61, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #portfolio .tech {
     color: #0f0;
     text-align: center; }
-  /* line 64, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  /* line 65, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
   #portfolio .thumbnail {
     width: 100%;
     height: auto; }
+
+/* line 71, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+#about {
+  background: black;
+  width: 100%; }
+  /* line 74, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  #about .portrait-container {
+    margin: 0;
+    float: left;
+    width: 30%;
+    border: 5px dashed white;
+    margin-top: 5%; }
+    /* line 80, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+    #about .portrait-container .portrait {
+      width: 100%;
+      height: auto; }
+  /* line 85, /Users/frankwang/src/ProjectFrank.github.io/source/css/index.scss */
+  #about .description {
+    margin-top: 5%;
+    float: right;
+    width: 60%; }
