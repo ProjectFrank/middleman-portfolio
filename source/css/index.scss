@@ -10,7 +10,7 @@
     /* 	padding-top: 10%; */
     /* } */
     p {
-	font-size: 1.5rem;
+	font-size: 1.62rem;
 	font-weight: 400;
 	font-family: "Playfair Display SC";
 	text-align: center;
@@ -31,6 +31,21 @@
 
     span.w {
 	letter-spacing: -0.07em;
+    }
+    
+    span.beautiful {
+	font-family: "Limelight";
+	font-size: 1.44rem;
+    }
+
+    span.bytes {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.75rem;
+    }
+
+    span.build {
+	font-family: "Cabin Sketch";
+	font-size: 1.5rem;
     }
 }
 
