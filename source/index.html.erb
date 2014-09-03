@@ -25,7 +25,21 @@ projects:
     <p>and i'm a front-end developer</p>
 </div>
 
-<div id="portfolio" class="clearfix">
+<div id="about" class="subpage clearfix">
+  <div class="h2-container">
+    <h2>About Me</h2>
+  </div>
+  <div class="portrait-container">
+    <%= image_tag "portrait.jpg", :class => "portrait" %>
+  </div>
+  <div class="description">
+    <p>I'm a Front-End Web Developer based in Toronto who loves making websites that look and feel amazing.</p>
+    <p>I am currently a student at the <%= link_to 'HackerYou', 'http://www.hackeryou.com' %> Front-End Web Development Immersive, and I have an undergraduate degree in Business Administration from the <%= link_to 'Schulich School of Business', 'http://www.schulich.yorku.ca' %>.</p>
+    <p>When I'm not at my computer, I'm probably in my garage gym or playing boardgames with friends.</p>
+  </div>
+</div>
+
+<div id="portfolio" class="subpage clearfix">
   <div class="h2-container">
     <h2>My Portfolio</h2>
   </div>
@@ -37,3 +51,4 @@ projects:
 <script>
   smoothScroll.init({easing: 'easeInOutQuad', updateURL: false});
 </script>
+
