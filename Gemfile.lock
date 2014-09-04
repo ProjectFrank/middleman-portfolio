@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/trenton42/font-awesome-middleman.git
+  revision: 1772c82f68266a09d6db695b4bf6524acfe51db2
+  branch: update-fa-4.2.0
+  specs:
+    font-awesome-middleman (4.2.0)
+      middleman-core (>= 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,8 +46,6 @@ GEM
     eventmachine (1.0.3)
     execjs (2.2.1)
     ffi (1.9.3)
-    font-awesome-middleman (4.1.1)
-      middleman-core (>= 3.0.0)
     haml (4.0.5)
       tilt
     hike (1.2.3)
@@ -137,7 +143,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  font-awesome-middleman
+  font-awesome-middleman!
   middleman (~> 3.3.5)
   middleman-deploy (~> 0.3.0)
   middleman-livereload (~> 3.1.0)
