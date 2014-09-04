@@ -28,6 +28,10 @@ a {
     color: #f55;
 }
 
+a:hover {
+    color: #f80;
+}
+
 nav {
     background: rgb(0,0,0);
     background: rgba(0,0,0,.5);
@@ -67,6 +71,20 @@ main {
     }
 }
 
+footer {
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.9);
+    position: relative;
+    top: 40px;
+    text-align: center;
+    padding: 2% 0;
+    line-height: 64px;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    a {
+	color: #80f;
+    }
+}
 .h2-container {
     border-bottom: 1px solid white;
 }
