@@ -29,6 +29,10 @@ a {
   color: #f55; }
 
 /* line 31, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
+a:hover {
+  color: #f80; }
+
+/* line 35, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
 nav {
   background: black;
   background: rgba(0, 0, 0, 0.5);
@@ -42,30 +46,45 @@ nav {
   text-align: center;
   line-height: 40px;
   z-index: 2; }
-  /* line 44, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
+  /* line 48, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
   nav div {
     color: #fff;
     display: inline-block;
     font-family: Oswald;
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: 300;
     height: 100%;
     padding: 0 5%; }
-  /* line 54, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
+  /* line 58, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
   nav a {
     color: inherit; }
 
-/* line 59, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
+/* line 63, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
 main {
   position: relative;
   top: 40px;
   color: white;
   padding: 0; }
-  /* line 64, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
+  /* line 68, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
   main h2 {
     margin: 0;
     font-size: 3em; }
 
-/* line 70, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
+/* line 74, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
+footer {
+  background: black;
+  background: rgba(0, 0, 0, 0.9);
+  position: relative;
+  top: 40px;
+  text-align: center;
+  padding: 2% 0;
+  line-height: 64px;
+  font-size: 3rem;
+  letter-spacing: 1rem; }
+  /* line 84, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
+  footer a {
+    color: #80f; }
+
+/* line 88, /Users/frankwang/src/ProjectFrank.github.io/source/css/style.scss */
 .h2-container {
   border-bottom: 1px solid white; }
