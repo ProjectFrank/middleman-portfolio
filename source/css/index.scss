@@ -4,6 +4,7 @@
     height: 750px;
     width: 100%;
     background: transparent;
+    background: rgba(0,0,0,0.5);
     padding-top: 12%;
     p {
 	font-size: 1.62rem;
@@ -52,6 +53,7 @@
 #portfolio {
     width: 100%;
     background: rgb(0,0,0);
+    background: rgba(0,0,0,0.8);
     .left {
 	float: left;
     }
@@ -81,6 +83,7 @@
 
 #about {
     background: rgb(0,0,0);
+    background: rgba(0,0,0,0.7);
     width: 100%;
     .portrait-container {
 	margin: 0;
