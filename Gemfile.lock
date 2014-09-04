@@ -38,6 +38,8 @@ GEM
     eventmachine (1.0.3)
     execjs (2.2.1)
     ffi (1.9.3)
+    font-awesome-middleman (4.1.1)
+      middleman-core (>= 3.0.0)
     haml (4.0.5)
       tilt
     hike (1.2.3)
@@ -135,6 +137,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  font-awesome-middleman
   middleman (~> 3.3.5)
   middleman-deploy (~> 0.3.0)
   middleman-livereload (~> 3.1.0)
