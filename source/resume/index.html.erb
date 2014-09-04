@@ -3,14 +3,28 @@ title: Resume
 stylesheet: resume
 gfont: Oswald:700,400|Open+Sans+Condensed:300,300italic,700
 ---
+<% content_for :nav do %>
+<div class="button-box">
+  <% link_to image_path('frank_resume.pdf') do %>
+    <div class="button">
+      <p>PDF</p>
+    </div>
+  <% end %>
+  <a href="javascript:window.print()">
+    <div class="button">
+      <p>Print</p>
+    </div>
+  </a>
+</div>
+<% end %>
 <header>
   <img id="dp" src="http://i.imgur.com/uXW59oF.jpg" alt="Photo of Frank Wang" title="Frank Wang" />
   <h1>
     Frank Wang  <a href="http://ca.linkedin.com/pub/frank-wang/18/697/692"><img class="icon" src="http://icons.iconarchive.com/icons/iconshock/high-detail-social/256/linkedin-icon.png" alt="LinkedIn Profile" title="LinkedIn"/></a>
   </h1>
-
   <p>Mobile: <a href="tel:+16475885288">647-588-5288</a> <br />
     Email: <a href="mailto:frank.wangtao@gmail.com">frank.wangtao@gmail.com</a></p>
+
 </header>
 <div id="summary">
   <h2>Summary of Qualifications</h2>
@@ -75,3 +89,13 @@ gfont: Oswald:700,400|Open+Sans+Condensed:300,300italic,700
     <h5>Excellence in Mathematics Award, <em>York Region District School Board</em><span class="right">2009</span></h5>
   </dd>
 </dl>
+
+<% content_for :aside do %>
+  <div class="button">
+    <p>Download PDF</p>
+  </div>
+
+  <div class="button">
+    <p>Print</p>
+  </div>
+<% end %>

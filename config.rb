@@ -51,7 +51,7 @@ set :css_dir, 'css'
 
 set :js_dir, 'js'
 
-set :images_dir, 'img'
+set :images_dir, 'assets'
 
 set :fonts_dir, "fonts"
 

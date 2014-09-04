@@ -16,7 +16,7 @@
 	<%= yield_content :head %>
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300|<%= current_page.data[:gfont] %>" >
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+        <script src="/js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -29,12 +29,12 @@
 	  <div class="nav"><%= link_to 'About', '/#about', :"data-scroll" => "" %></div>
 	  <div class="nav"><%= link_to 'Portfolio', '/#portfolio', :"data-scroll" => ""%></div>
 	  <div class="nav"><%= link_to 'Blog', '/#' %></div>	 
+	  <%= yield_content :nav %>
 	<% end %>
 	<% content_tag :main do %>
 	<%= tag :img, :id => "background", :src => "http://i.imgur.com/8DtvYY1.jpg" %>
           <%= yield %>
 	<% end %>
-	
 	<% content_tag :footer do %>
 	  <a href="http://github.com/">
 	    <i class="fa fa-github"></i>
