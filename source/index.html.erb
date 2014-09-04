@@ -47,8 +47,9 @@ projects:
     <%= partial(:project, :locals => project) %>
   <% end %>
 </div>
-<%= javascript_include_tag 'bind-polyfill', 'smooth-scroll' %>
+
+<% content_for :script do %>
 <script>
   smoothScroll.init({easing: 'easeInOutQuad', updateURL: false});
 </script>
-
+<% end %>
