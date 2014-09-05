@@ -18,3 +18,5 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem 'font-awesome-middleman', :git => 'https://github.com/trenton42/font-awesome-middleman.git', :branch => 'update-fa-4.2.0'
+
+gem 'middleman-blog'

@@ -18,7 +18,9 @@
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
-#
+
+page "/blog/*", :layout => :blog
+
 # A path which all have the same layout
 # with_layout :admin do
 #   page "/admin/*"
@@ -83,6 +85,10 @@ activate :deploy do |deploy|
   deploy.branch   = 'master' # default: gh-pages
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
+end
+
+activate :blog do |blog|
+  blog.prefix = "blog"
 end
 
  configure :development do
