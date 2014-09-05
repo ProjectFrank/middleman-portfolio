@@ -73,16 +73,16 @@ main {
 
 footer {
     background: rgb(0,0,0);
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.5);
     position: relative;
     top: 40px;
     text-align: center;
-    padding: 2% 0;
-    line-height: 64px;
-    font-size: 3rem;
+    padding: 7% 0;
+    font-size: 6rem;
+    line-height: 1.4;
     letter-spacing: 1rem;
     a {
-	color: #80f;
+    	color: #80f;
     }
 }
 .h2-container {
