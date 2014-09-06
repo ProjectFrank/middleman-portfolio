@@ -87,8 +87,15 @@ activate :deploy do |deploy|
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
 
+
 activate :blog do |blog|
-  blog.prefix = "blog"
+  blog.prefix = "blog";
+  blog.layout = "source/layout/blog.erb";
+  blog.sources = "/articles/{year}-{month}-{day}-{title}.html";
+  blog.new_article_template = "source/blog/article.erb";
+  blog.tag_template = "blog/tag.html"
+  blog.calendar_template = "blog/calendar.html"
+  Time.zone = "US/Eastern";
 end
 
  configure :development do

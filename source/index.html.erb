@@ -18,35 +18,36 @@ projects:
     url: http://projectfrank.github.io/citeit/
 ---
 <!-- Add your site or application content here -->
-<div id="home">
+<main>
+  <div id="home">
     <p>hi, i'm</p>
     <p class="name">f<span class="r">r</span>ank <span class="w">w</span>ang</p>
     <p><span class="build">I BUILD </span> <span class="beautiful">beautiful </span><span class="bytes">bytes</span>.</p>    
-</div>
+  </div>
 
-<div id="about" class="subpage clearfix">
-  <div class="h2-container">
-    <h2>About Me</h2>
+  <div id="about" class="subpage clearfix">
+    <div class="h2-container">
+      <h2>About Me</h2>
+    </div>
+    <div class="portrait-container">
+      <%= image_tag "portrait.jpg", :class => "portrait" %>
+    </div>
+    <div class="description">
+      <p>I'm a Front-End Web Developer based in Toronto who loves making websites that look and feel amazing.</p>
+      <p>I am currently a student at the <%= link_to 'HackerYou', 'http://www.hackeryou.com' %> Front-End Web Development Immersive, and I have an undergraduate degree in Business Administration from the <%= link_to 'Schulich School of Business', 'http://www.schulich.yorku.ca' %>.</p>
+      <p>When I'm not at my computer, I'm probably in my garage gym or playing boardgames with friends.</p>
+    </div>
   </div>
-  <div class="portrait-container">
-    <%= image_tag "portrait.jpg", :class => "portrait" %>
-  </div>
-  <div class="description">
-    <p>I'm a Front-End Web Developer based in Toronto who loves making websites that look and feel amazing.</p>
-    <p>I am currently a student at the <%= link_to 'HackerYou', 'http://www.hackeryou.com' %> Front-End Web Development Immersive, and I have an undergraduate degree in Business Administration from the <%= link_to 'Schulich School of Business', 'http://www.schulich.yorku.ca' %>.</p>
-    <p>When I'm not at my computer, I'm probably in my garage gym or playing boardgames with friends.</p>
-  </div>
-</div>
 
-<div id="portfolio" class="subpage clearfix">
-  <div class="h2-container">
-    <h2>My Portfolio</h2>
-  </div>
-  <% current_page.data["projects"].each do |project| %>
+  <div id="portfolio" class="subpage clearfix">
+    <div class="h2-container">
+      <h2>My Portfolio</h2>
+    </div>
+    <% current_page.data["projects"].each do |project| %>
     <%= partial(:project, :locals => project) %>
-  <% end %>
-</div>
-
+    <% end %>
+  </div>
+</main>
 <% content_for :script do %>
 <script>
   smoothScroll.init({easing: 'easeInOutQuad', updateURL: false});

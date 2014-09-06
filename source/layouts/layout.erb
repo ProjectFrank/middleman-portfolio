@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!-- Use title if it's in the page YAML frontmatter -->
-        <title><%= current_page.data.title || "Frank Wang - Front End Web Developer" %></title>
+        <title><%= frank_page_title %></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -32,10 +32,9 @@
 	<!--   <%= yield_content :nav %> -->
 	<!-- <% end %> -->
 	<%= partial "nav" %>
-	<% content_tag :main do %>
 	<%= tag :img, :id => "background", :src => "http://i.imgur.com/8DtvYY1.jpg" %>
+
           <%= yield %>
-	<% end %>
 
 	<%= partial "footer" %>
 
