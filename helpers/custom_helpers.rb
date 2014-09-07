@@ -3,6 +3,8 @@ module CustomHelpers
     if current_article
       "Project Frank" + if current_article.title
                           " - #{current_article.title}"
+                        else 
+                          ""
                         end
     elsif current_page.data.title
       current_page.data.title
