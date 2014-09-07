@@ -95,6 +95,7 @@ activate :blog do |blog|
   blog.new_article_template = "source/blog/article.erb";
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
+  blog.default_extension = ".markdown.erb"
   Time.zone = "US/Eastern";
 end
 
