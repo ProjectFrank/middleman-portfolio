@@ -1,5 +1,7 @@
 <% wrap_layout :blog do %>
-<main>
-	<%= yield %>
-</main>
+  <div class="h2-container">
+    <h2><%= current_article.title %></h2>
+  </div>  
+  <time><%= current_article.date.strftime('%b %e %Y') %></time>
+<%= yield %>
 <% end %>
