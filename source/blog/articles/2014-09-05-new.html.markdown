@@ -1,6 +1,0 @@
----
-title: new
-date: 2014-09-05 20:29:48 -0400
----
-
-blah blah blah
