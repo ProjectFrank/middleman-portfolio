@@ -20,6 +20,7 @@
 # page "/path/to/file.html", :layout => :otherlayout
 
 page "/blog/*", :layout => :blog
+page "/blog/articles/*", :layout => :article
 
 # A path which all have the same layout
 # with_layout :admin do
@@ -90,12 +91,11 @@ end
 
 activate :blog do |blog|
   blog.prefix = "blog";
-  blog.layout = "source/layout/blog.erb";
   blog.sources = "/articles/{year}-{month}-{day}-{title}.html";
-  blog.new_article_template = "source/blog/article.erb";
+  blog.new_article_template = "source/blog/new_article.erb";
   blog.tag_template = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
-  blog.default_extension = ".markdown.erb"
+  # blog.default_extension = ".markdown.erb"
   Time.zone = "US/Eastern";
 end
 
