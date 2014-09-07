@@ -208,12 +208,6 @@ h3 .right {
     }
 }
 
-@media (not print) and (max-width: 1024px) {
-    aside {
-	display: none;
-    }
-}
-
 @media (not print) and (max-width: 750px) {
     dd {
         border-left: 0 solid black;
