@@ -2,18 +2,30 @@
     padding: 2rem;
     background: rgb(0,0,0);
     background: rgba(0,0,0,0.5);
+    margin-left: 187px;
     color: white;
-    float: right;
-    width: 85%;
+    width: calc(100% - 187px);
+    p {
+	font-size: 1.5rem;
+    }
+    
+    h2 {
+	font-size: 3rem;
+    }
+
+    time {
+	font-size: 1rem;
+    }
 }
 
 aside {
-    padding: 2rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
     background: rgba(255,255,255,0.2);
-    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     color: white;
-    width: 15%;
-    height: 100%;
+    width: 187px;
     text-align: center;
     ul {
 	padding-left: 0;
