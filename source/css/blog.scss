@@ -41,3 +41,17 @@ aside {
 footer {
     clear: both;
 }
+
+@media (max-width: 500px) {
+    html {
+	font-size: 10px;
+    }
+
+    aside {
+	width: 120px;
+    }
+
+    #main {
+	margin-left: 120px;
+    }
+}
