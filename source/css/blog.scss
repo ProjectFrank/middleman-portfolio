@@ -28,6 +28,7 @@ aside {
     width: 187px;
     text-align: center;
     ul {
+	margin-top: 0;
 	padding-left: 0;
 	list-style: none;
     }
@@ -36,6 +37,10 @@ aside {
 	margin-top: 0;
 	font-family: "Sigmar One";
 	font-size: 2rem;
+    }
+    h3 {
+	font-size: 1.5rem;
+	margin: 0;
     }
 }
 
