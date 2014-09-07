@@ -1,2 +1,32 @@
+#main {
+    padding: 2rem;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    float: right;
+    width: 85%;
+}
+
 aside {
+    padding: 2rem 1rem 0 1rem;
+    background: rgba(255,255,255,0.2);
+    float: left;
+    color: white;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    ul {
+	padding-left: 0;
+	list-style: none;
+    }
+    h1 {
+	line-height: 1;
+	margin-top: 0;
+	font-family: "Sigmar One";
+	font-size: 2rem;
+    }
+}
+
+footer {
+    clear: both;
 }
