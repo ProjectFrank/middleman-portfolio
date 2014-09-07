@@ -29,6 +29,13 @@ h2 {
     margin: 0;
     font-size: 3rem;
 }
+
+.h2-container {
+    border-bottom: 1px solid white;
+}
+
+.h2-sub {
+    font-size: 1.2rem;
 }
 
 a {
@@ -86,7 +93,4 @@ footer {
     a {
     	color: #80f;
     }
-}
-.h2-container {
-    border-bottom: 1px solid white;
 }
