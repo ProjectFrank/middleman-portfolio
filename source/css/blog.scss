@@ -7,8 +7,8 @@
     font-size: 1.5rem;
 
     .tags {
-	float: right;
 	font-style: italic;
+	text-decoration: underline;
 	a:after {
 	    content: ", ";
 	}

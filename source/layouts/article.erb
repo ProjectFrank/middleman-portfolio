@@ -4,8 +4,8 @@
   </div>  
   <div class="h2-sub">
     <time><%= current_article.date.strftime('%b %e %Y') %></time>
+    |
     <span class="tags">
-      tagged: 
       <% current_article.tags.each do |tag| %>
         <%= link_to "#{tag}", tag_path(tag) %>
       <% end %>
