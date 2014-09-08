@@ -18,7 +18,6 @@ projects:
     url: http://projectfrank.github.io/citeit/
 ---
 <!-- Add your site or application content here -->
-<main>
   <div id="home">
     <p>hi, i'm</p>
     <p class="name">f<span class="r">r</span>ank <span class="w">w</span>ang</p>
@@ -47,7 +46,6 @@ projects:
     <%= partial(:project, :locals => project) %>
     <% end %>
   </div>
-</main>
 <% content_for :script do %>
 <script>
   smoothScroll.init({easing: 'easeInOutQuad', updateURL: false});
