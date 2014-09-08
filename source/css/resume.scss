@@ -208,7 +208,7 @@ h3 .right {
     }
 }
 
-@media (not print) and (max-width: 750px) {
+@media screen and (max-width: 750px), projection and (max-width: 750px) {
     dd {
         border-left: 0 solid black;
         padding-left: 0;
@@ -232,7 +232,7 @@ h3 .right {
     }
 }
 
-@media (not print) and (max-width: 600px) {
+@media screen and (max-width: 600px), projection and (max-width: 600px) {
     #dp {
         display: none;
     }
@@ -246,7 +246,7 @@ h3 .right {
     }
 }
 
-@media (not print) and (max-width: 360px) {
+@media screen and (max-width: 360px), projection and (max-width: 360px) {
     html {
         font-size: 8px;
     }
