@@ -4,7 +4,9 @@
     </div>
 
     <aside>
-      <h1>project f<span class="r">r</span>ank</h1>
+      <% link_to "/blog/" do %>
+        <h1>project f<span class="r">r</span>ank</h1>
+      <% end %>
       <h3>Recent Articles</h3>
       <ul>
         <% blog.articles[0...10].each do |article| %>
