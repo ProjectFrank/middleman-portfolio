@@ -2,8 +2,8 @@
     padding: 2rem;
     background: rgb(0,0,0);
     background: rgba(0,0,0,0.5);
-    min-height: 500px;
-    margin-left: 187px;
+    width: calc(100% - 187px);
+    float: right;
     color: white;
     font-size: 1.5rem;
 
@@ -24,12 +24,8 @@
 }
 
 aside {
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem;
     background: rgba(255,255,255,0.2);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
     color: white;
     width: 187px;
     text-align: center;
@@ -38,6 +34,9 @@ aside {
 	padding-left: 0;
 	list-style: none;
 	font-size: 1.2rem;
+    }
+    ul:last-child {
+	margin-bottom: 0;
     }
     h1 {
 	line-height: 1;
@@ -65,6 +64,6 @@ aside {
     }
 
     #main {
-	margin-left: 120px;
+	width: calc(100% - 120px);
     }
 }
