@@ -7,8 +7,8 @@ html {
     font-size: 13px;
 }
 
-#page-contents {
-    top: 100px;
+body {
+    padding-top: 100px;
 }
 
 main {
@@ -26,9 +26,6 @@ nav {
     height: 100px;
 }
 
-footer {
-    top: 100px;
-}
 p {
     margin-top: 2%;
     margin-bottom: 2%;
