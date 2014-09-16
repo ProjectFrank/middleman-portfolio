@@ -1,6 +1,18 @@
 <% wrap_layout :blog do %>
   <div class="h2-container">
     <h2><%= current_article.title %></h2>
+    <% filename = current_page.source_file.sub(/.*\/ProjectFrank.github.io/, "") %>
+    <% link_to "https://github.com/ProjectFrank/projectfrank.github.io/edit/development" + filename, :class => "edit" do %>
+      <div class="card">
+	<div class="front">
+       	  <span class='octicon octicon-pencil'></span>
+	</div>
+	<div class="back">
+	  <span class='octicon octicon-octoface'></span>
+	</div>
+      </div>
+      Edit this article
+    <% end %>
   </div>  
   <div class="h2-sub">
     <time><%= current_article.date.strftime('%b %e, %Y') %></time>

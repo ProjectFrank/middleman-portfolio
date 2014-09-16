@@ -54,6 +54,37 @@ aside {
     }
 }
 
+a.edit {
+    display: block;
+}
+.card {
+    .octicon {
+	font-size: 30px;
+    }
+    display: block;
+    float: left;
+    position: relative;
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    height: 30px;
+    width: 30px;
+    .front, .back {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+    }
+    .back {
+	transform: rotateX(180deg);
+    }
+}
+
+.card:hover {
+    transform: rotateX(180deg);
+}
+
 @media (max-width: 500px) {
     aside {
 	width: 120px;
