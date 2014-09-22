@@ -1,6 +1,6 @@
 $footer-height: 300px;
 $nav-height: 40px;
-
+$white: #ddd;
 * {
     box-sizing: border-box;
 }
@@ -24,7 +24,7 @@ body {
 #page-contents {
     position: relative;
     width: 100%;
-    color: white;
+    color: $white;
 }
 
 h2 {
@@ -33,7 +33,7 @@ h2 {
 }
 
 .h2-container {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid $white;
 }
 
 .h2-sub {
@@ -42,11 +42,11 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #f55;
+    color: #D33D2D;
 }
 
 a:hover {
-    color: #f80;
+    color: #FC7162;
 }
 
 nav {
@@ -63,7 +63,7 @@ nav {
     line-height: $nav-height;
     z-index: 2;
     div {
-	color: #fff;
+	color: $white;
 	display: inline-block;
 	font-family: Oswald;
 	font-size: 1.5rem;
@@ -89,7 +89,6 @@ footer {
     line-height: 1.4;
     letter-spacing: 1rem;
     a {
-    	color: #80f;
 	line-height: $footer-height;
     }
 }

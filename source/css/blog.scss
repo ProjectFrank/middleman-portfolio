@@ -1,10 +1,12 @@
+$white: #ddd;
+
 #main {
     padding: 2rem;
     background: rgb(0,0,0);
     background: rgba(0,0,0,0.5);
     width: calc(100% - 187px);
     float: right;
-    color: white;
+    color: $white;
     font-size: 1.5rem;
 
     .tags {
@@ -26,7 +28,7 @@
 aside {
     padding: 1rem;
     background: rgba(255,255,255,0.2);
-    color: white;
+    color: $white;
     width: 187px;
     text-align: center;
     ul {
@@ -42,7 +44,7 @@ aside {
 	line-height: 1;
 	margin-top: 0;
 	font-family: "Sigmar One";
-	color: white;
+	color: $white;
 	font-size: 2rem;
     }
     h1:hover {
