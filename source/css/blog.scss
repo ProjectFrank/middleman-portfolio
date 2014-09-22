@@ -23,6 +23,16 @@ $white: #ddd;
     .readmore {
 	margin-bottom: 2rem;
     }
+
+    p, ul {
+	font-family: 'Lora';
+	font-weight: 400;
+	font-size: 1.1rem;
+    }
+
+    p {
+	line-height: 2;
+    }
 }
 
 aside {
