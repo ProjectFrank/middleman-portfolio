@@ -59,7 +59,6 @@ nav {
     background: rgba(0,0,0,.5);
     width: 100%;
     position: fixed;
-    text-align: right;
     top: 0;
     left: 0;
     height: $nav-height;
@@ -70,15 +69,33 @@ nav {
     div {
 	color: $white;
 	display: inline-block;
+	position: relative;
 	font-family: "Open Sans";
 	font-weight: 600;
 	font-size: 1.5rem;
 	height: $nav-height;
-	padding: 0 5%;
-	
     }
     a {
+	display: inline-block;
 	color: inherit;
+	text-align: center;
+	padding: 0 3em;
+    }
+    a:after {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	opacity: 0;
+	content: "";
+	border-bottom: 3px solid #D33D2D;
+	transition: 0.3s;
+    }
+    a:hover:after {
+	left: 0;
+	width: 100%;
+	opacity: 1;
     }
 }
 
