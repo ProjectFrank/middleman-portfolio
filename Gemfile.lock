@@ -39,7 +39,7 @@ GEM
     eventmachine (1.0.3)
     execjs (2.2.1)
     ffi (1.9.3)
-    font-awesome-middleman (4.2.0)
+    font-awesome-middleman (4.2.1)
       middleman-core (>= 3.0.0)
     haml (4.0.5)
       tilt
@@ -142,7 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  font-awesome-middleman (~> 4.2)
+  font-awesome-middleman (~> 4.2.1)
   middleman (~> 3.3.5)
   middleman-blog
   middleman-deploy (~> 0.3.0)
