@@ -21,6 +21,9 @@ $white: #ddd;
     }
 
     .readmore {
+	font-family: Lora;
+	font-style: italic;
+	font-weight: 400;
 	margin-bottom: 2rem;
     }
 
@@ -37,7 +40,6 @@ $white: #ddd;
 
 aside {
     padding: 1rem;
-    background: rgba(255,255,255,0.2);
     color: $white;
     width: 187px;
     text-align: center;
@@ -61,8 +63,12 @@ aside {
 	color: inherit;
     }
     h3 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
+	font-weight: 600;
 	margin: 0;
+    }
+    .h3-sub {
+	font-family: "Open Sans Condensed";
     }
 }
 

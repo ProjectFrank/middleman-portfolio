@@ -7,7 +7,6 @@
     p {
 	font-size: 1.62rem;
 	font-weight: 400;
-	font-family: "Playfair Display SC";
 	text-align: center;
 	margin: 0
     }
@@ -26,22 +25,7 @@
 
     span.w {
 	letter-spacing: -0.07em;
-    }
-    
-    span.beautiful {
-	font-family: "Limelight";
-	font-size: 1.44rem;
-    }
-
-    span.bytes {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 1.75rem;
-    }
-
-    span.build {
-	font-family: "Cabin Sketch";
-	font-size: 1.5rem;
-    }
+    }    
 }
 
 .subpage {
@@ -73,6 +57,7 @@
     .tech {
 	color: #02B4B8;
 	text-align: center;
+	font-family: "Open Sans Condensed";
     }
     .thumbnail {
 	width: 100%;

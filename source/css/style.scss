@@ -15,7 +15,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Oswald';
+    font-family: "Open Sans";
+    font-weight: 300;
     position: relative;
     padding: $nav-height 0 $footer-height;
     min-height: 100%;
@@ -30,14 +31,17 @@ body {
 h2 {
     margin: 0;
     font-size: 3rem;
+    font-family: "Open Sans";
+    font-weight: 600;
 }
 
 .h2-container {
-    border-bottom: 2px solid $white;
+    border-bottom: 5px solid $white;
 }
 
 .h2-sub {
-    margin-top: 6px;
+    font-family: "Open Sans Condensed";
+    margin-top: 10px;
     font-size: 1.2rem;
 }
 
@@ -66,9 +70,9 @@ nav {
     div {
 	color: $white;
 	display: inline-block;
-	font-family: Oswald;
+	font-family: "Open Sans";
+	font-weight: 600;
 	font-size: 1.5rem;
-	font-weight: 300;
 	height: $nav-height;
 	padding: 0 5%;
 	
