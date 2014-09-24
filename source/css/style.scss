@@ -115,6 +115,15 @@ footer {
     }
 }
 
+@media (max-width: 880px) {
+    nav {
+	a {
+	    font-size: 1.2rem;
+	    padding: 0 1.5em;
+	}
+    }
+}
+
 @media (max-width: 500px) {
     html {
 	font-size: 10px;
