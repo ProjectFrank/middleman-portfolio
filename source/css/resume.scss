@@ -13,7 +13,7 @@ body {
 
 main {
     background-color: #FFF;
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Open Sans Condensed", "Arial Narrow", sans-serif;
     color: black;
     width: 100%;
     min-width: 320px;
@@ -43,7 +43,7 @@ h1 {
 
 h2 {
     margin-bottom: 0.5rem;
-    font-family: Oswald;
+    font-family: Oswald, Arial;
     font-size: 1.5rem;
 }
 
@@ -97,7 +97,7 @@ dl {
 }
 
 dt {     
-    font-family: Oswald, Times; 
+    font-family: Oswald, Arial, serif; 
     font-weight: bold; 
     font-size: 1.5rem; 
     text-align: right; 
@@ -150,7 +150,7 @@ h3 .right {
 }
 
 .button {
-    font-family: Oswald;
+    font-family: Oswald, Arial, serif;
     font-weight: bold;
     line-height: normal;
     color: #000;

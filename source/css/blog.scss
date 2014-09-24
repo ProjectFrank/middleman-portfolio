@@ -21,14 +21,14 @@ $white: #ddd;
     }
 
     .readmore {
-	font-family: Lora;
+	font-family: Lora, Times, serif;
 	font-style: italic;
 	font-weight: 400;
 	margin-bottom: 2rem;
     }
 
     p, ul {
-	font-family: 'Lora';
+	font-family: Lora, Times, serif;
 	font-weight: 400;
 	font-size: 1.1rem;
     }
@@ -55,7 +55,7 @@ aside {
     h1 {
 	line-height: 1;
 	margin-top: 0;
-	font-family: "Sigmar One";
+	font-family: "Sigmar One", Impact, serif;
 	color: $white;
 	font-size: 2rem;
     }
@@ -68,7 +68,7 @@ aside {
 	margin: 0;
     }
     .h3-sub {
-	font-family: "Open Sans Condensed";
+	font-family: "Open Sans Condensed", "Arial Narrow", serif;
     }
 }
 
