@@ -142,7 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  font-awesome-middleman (~> 4.2.1)
+  font-awesome-middleman (~> 4.2)
   middleman (~> 3.3.5)
   middleman-blog
   middleman-deploy (~> 0.3.0)
