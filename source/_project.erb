@@ -1,5 +1,7 @@
 <div class="project <%= align %>">
+  <% link_to url, :target => "_blank" do %>
   <%= image_tag thumb_url, :class => 'thumbnail' %>
+  <% end %>
   <p class="description">
     <%= description %>
   </p>

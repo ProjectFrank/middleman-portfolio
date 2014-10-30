@@ -58,6 +58,12 @@ set :images_dir, 'assets'
 
 set :fonts_dir, "fonts"
 
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+  config.cascade = false
+  config.inline = true
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
